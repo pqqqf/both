@@ -2,7 +2,7 @@ import requests
 import telebot
 
 # Bot access token
-TOKEN = '7747763304:AAFfSx8yM56K-ghrqbonrTK_DvyfBaA7fEM'
+TOKEN = '7248287448:AAFQcPnXrEaNaIFM-Lx_3VizIiv_9glWXCA'
 bot = telebot.TeleBot(TOKEN)
 
 # LeakCheck API key
@@ -12,7 +12,7 @@ API_KEY = '40d83bc02b71f93664bc55113e51485cf0a7aba4'
 authorized_users = set()  # Using a set for easy addition and removal
 
 # Owner ID (can be changed to the actual owner's ID)
-OWNER_ID = 1628318629
+OWNER_ID = 6358035274
 
 @bot.message_handler(commands=['add_user'])
 def add_user(message):
