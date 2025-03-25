@@ -2,7 +2,7 @@ import requests
 import telebot
 
 # Bot access token
-TOKEN = '7845646320:AAHkK99Z8aSg2DxMHoHcFqLrc31tCuiOWKg'
+TOKEN = '7333263562:AAE7SGKtGMwlbkxNroPyh3MBvY8EUc2PCmU'
 bot = telebot.TeleBot(TOKEN)
 
 # LeakCheck API key
